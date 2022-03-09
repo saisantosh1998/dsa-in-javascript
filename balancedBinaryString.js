@@ -17,3 +17,5 @@ function maxSubStr(str)
     return strings;
 }
 console.log(maxSubStr('0000000000'));
+// approach
+/*while travesing through the string and counting zeros and ones so far if they are equal we will add that string to the answer array*/
